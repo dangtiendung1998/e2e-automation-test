@@ -1,0 +1,31 @@
+{
+  "name": "e2e-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangtiendung1998/e2e-automation-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangtiendung1998/e2e-automation-test/issues"
+  },
+  "homepage": "https://github.com/dangtiendung1998/e2e-automation-test#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.2.2",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "chromedriver": "^102.0.0",
+    "geckodriver": "^3.0.1",
+    "selenium-webdriver": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}
