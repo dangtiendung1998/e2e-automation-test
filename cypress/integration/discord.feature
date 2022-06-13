@@ -3,4 +3,4 @@ Feature: Discord
   Scenario: Discord
     Given Discord login
     Then Discord fine channel KOMU
-    Then Discord reply message
+#    Then Discord reply message
